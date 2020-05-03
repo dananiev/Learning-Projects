@@ -1,0 +1,21 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Birthday.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "stripe": "^7.15.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}

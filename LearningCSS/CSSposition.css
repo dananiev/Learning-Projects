@@ -1,0 +1,25 @@
+.parent {
+    position: relative;
+    height: 200vh;
+    width: 1000px;
+    font-size: 50px;
+    background-color: grey;
+}
+
+.child-one {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    font-size: 50px;
+    background-color: aqua;
+}
+
+.child-two {
+    font-size: 50px;
+    background-color: brown;
+}
+
+.child-three {
+    font-size: 50px;
+    background-color: chocolate;
+}

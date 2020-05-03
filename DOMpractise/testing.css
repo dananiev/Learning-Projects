@@ -1,0 +1,19 @@
+.custom_class {
+    color: blueviolet;
+}
+
+#example1 {
+    box-sizing: content-box;
+    width: 400px;
+    height: 100px;
+    padding: 30px;
+    border: 2px solid blue;
+}
+
+#example2 {
+    box-sizing: border-box;
+    width: 400px;
+    height: 100px;
+    padding: 30px;
+    border: 2px solid blue;
+}

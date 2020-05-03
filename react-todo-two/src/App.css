@@ -1,0 +1,41 @@
+.demo-component {
+    text-align: center;
+    background: goldenrod;
+    line-height: 1.4;
+    padding: 1rem;
+}
+
+input {
+    max-width: 100%;
+    font-size: 2em;
+    border: 0;
+    padding: 0.5em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.todolist {
+    list-style-type: none;
+    padding: 1em;
+}
+
+.todo {
+    display: flex;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.4);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+a {
+    margin-left: auto;
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+a:hover {
+    opacity: 1;
+}

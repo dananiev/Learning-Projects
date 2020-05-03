@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-one {
+    background-color: rgb(252, 64, 64);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border: 20px solid brown;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.box-two {
+    background-color: rgb(72, 72, 248);
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border: 20px solid violet;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}
