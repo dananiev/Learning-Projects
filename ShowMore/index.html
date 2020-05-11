@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <script src='script.js' defer></script>
+    <title>Show More</title>
+</head>
+<body>
+    <div class='card'>
+        <div class='placeholder-for-image'></div>
+        <div class='info'>
+            <h2>Title 1</h2>
+        </div>
+        <div class='description'>
+            <div class='expandMoreContent' id='showMoreContent1'>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quae non nemo totam dolor alias beatae, numquam accusantium minima facilis perferendis aperiam error vero tempora. Neque atque quod earum hic..</p>
+            </div>
+            <div class='expandMoreHolder'>
+                <span expand-more data-hidetext="Show Less..." 
+                      data-showtext="Show More..." 
+                      data-target="showMoreContent1" 
+                      class="btn-expand-more">
+                      ...Show More
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class='card'>
+        <div class='placeholder-for-image'></div>
+        <div class='info'>
+            <h2>Title 2</h2>
+        </div>
+        <div class='description'>
+            <div class='expandMoreContent' id='showMoreContent2'>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis dolorum molestias sapiente! Minus neque tempora quos repellat cupiditate soluta, dolore saepe ducimus, ratione adipisci sunt quo sint ex nulla non!</p>
+            </div>
+            <div class='expandMoreHolder'>
+                <span expand-more data-hidetext="Show Less..." 
+                      data-showtext="Show More..." 
+                      data-target="showMoreContent2" 
+                      class="btn-expand-more">
+                      ...Show More
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
