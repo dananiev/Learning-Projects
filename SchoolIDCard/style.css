@@ -1,0 +1,280 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #d9d9d9;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    min-width: 350px;
+    height: 550px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 170px;
+}
+
+.info, .info-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.info-back {
+    margin-top: 0;
+    justify-content: center;
+}   
+
+.info h2, h4 {
+    margin: 0;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.school-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6px;
+    font-size: 14px;
+}
+
+.bold-line {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -8px;
+    z-index: 99;
+}
+
+.bold-line .left {
+    position: absolute;
+    left: -28px;
+    bottom: -4px;
+    height: 33px;
+    transform: rotate(25deg);
+    width: 105px;
+    background: #db241d;
+}
+
+.bold-line .center {
+    position: absolute;
+    left: 66px;
+    bottom: -25px;
+    height: 33px;
+    width: 220px; 
+    background: #db241d;
+}
+
+.bold-line .right {
+    position: absolute;
+    right: -28px;
+    bottom: -4px;
+    height: 33px;
+    transform: rotate(154deg);
+    width: 105px;
+    background: #db241d;
+}
+
+.profile-img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    bottom: -69px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    z-index: 99;
+}
+
+.bottom {
+    height: 380px;
+    background-color: #05923d;
+    position: relative;
+}
+
+.student-session {
+    display: flex;
+    justify-content: center;
+    height: 206px;
+    align-items: center;
+    color: #fff;
+}
+
+.bold-line-bottom .left {
+    position: absolute;
+    background: #ffffff;
+    left: -56px;
+    bottom: 83px;
+    width: 179px;
+    height: 68px;
+    transform: skew(0deg, -40deg), rotate(270deg);
+}
+
+.bold-line-bottom .center {
+    position: absolute;
+    background: #ffffff;
+    left: 64px;
+    bottom: 55px;
+    width: 224px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.bold-line-bottom .right {
+    position: absolute;
+    background: #ffffff;
+    right: -59px;
+    bottom: 82px;
+    width: 179px;
+    height: 68px;
+    transform: skew(0deg, 40deg), rotate(90deg);
+}
+
+.student-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+    padding-left: 30px;
+}
+
+.student-details {
+    width: 40%;
+}
+
+.student-details-content {
+    width: 60%;
+    word-wrap: break-all;
+}
+
+.student-details div, .student-details-content div {
+    margin-bottom: 6px;
+}
+
+.bold-line-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -8px;
+    z-index: 99;
+}
+
+.bold-line-back .left {
+    position: absolute;
+    left: -28px;
+    bottom: -51px;
+    height: 31px;
+    transform: rotate(-33deg);
+    width: 111px;
+    background: #db241d;
+}
+
+.bold-line-back .center {
+    position: absolute;
+    left: 66px;
+    bottom: -25px;
+    height: 33px;
+    width: 220px;
+    background: #db241d;
+}
+
+.bold-line-back .right {
+    position: absolute;
+    right: -28px;
+    bottom: -48px;
+    height: 29px;
+    width: 108px;
+    transform: rotate(33deg);
+    background: #db241d;
+}
+
+.bold-vertical-left {
+    position: absolute;
+    top: 0;
+    left: -70px;
+    height: 30px;
+    width: 170px;
+    background: #db241d;
+    transform: skew(0deg, -40deg) rotate(90deg);
+}
+
+.bold-vertical-right {
+    position: absolute;
+    top: 0;
+    right: -70px;
+    height: 30px;
+    width: 170px;
+    background: #db241d;
+    transform: skew(0deg, 40deg) rotate(90deg);
+}
+
+.back-bottom {
+    height: 380px;
+    background-color: #05923d;
+    position: relative;
+    margin-top: 32px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-design {
+    position: absolute;
+    bottom: 32px;
+    left: 0;
+    border-bottom: 55px solid #ffffff;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    height: 0;
+    width: 220px;
+}
+
+.school-info {
+    width: 260px;
+    word-break: break-all;
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 18px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.school-info div {
+    margin-bottom: 12px;
+}
+
+.web-link {
+    line-height: 55px;
+    font-family: cursive;
+    font-size: 18px;
+}
