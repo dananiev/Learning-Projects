@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Slider</title>
+</head>
+<body>
+    
+    <div id='content-wrapper'>
+        <div class='column'>
+            <img id='featured' src='images/shoe1.jpg' />
+
+            <div id='slide-wrapper'>
+                <img id='slideLeft' class='arrow' src='images/arrow-left.png' />
+
+                <div id='slider'>
+                    <img class='thumbnail active' src='images/shoe1.jpg' />
+                    <img class='thumbnail' src='images/shoe2.jpg' />
+                    <img class='thumbnail' src='images/shoe3.jpg' />
+
+                    <img class='thumbnail' src='images/preset1.png' />
+                    <img class='thumbnail' src='images/preset2.jpg' />
+                    <img class='thumbnail' src='images/preset3.JPG' />
+                    <img class='thumbnail' src='images/preset4.JPG' />
+                </div>
+
+                <img id='slideRight' class='arrow' src='images/arrow-right.png' />
+            </div>
+        </div>
+
+        <div class='column'>
+            <h1>Awesome Shoes</h1>
+            <hr>
+            <h3>$89.99</h3>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus deserunt beatae magnam laudantium nulla labore tenetur nam velit possimus, perspiciatis aut aspernatur molestiae, quisquam quam enim eum suscipit dicta excepturi.</p>
+
+            <input value=1 type='number' />
+            <a class='btn btn-dark' href='#'>Add to Cart</a>
+        </div>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+</html>
