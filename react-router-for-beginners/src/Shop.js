@@ -12,20 +12,9 @@ function Shop() {
         const data = await fetch('https://fortnite-public-api.theapinetwork.com/prod09/upcoming/get');
         const items = await data.json();
         console.log(items.items)
-        setItems(items.items);
+        setItems(items.items)
     }
-
-    // let productsToRender;
-    // if (items) {
-    //     productsToRender = items.map(item => {
-    //         return <h1 key={item.itemid}>{item.name}</h1>
-    //     });
-    // } else {
-    //     productsToRender = 'Loading...';
-    // }
-
-
-    // return <div>{productsToRender}</div>
+    
     return (
         <div>
             {items.map(item => (
