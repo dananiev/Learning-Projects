@@ -1,0 +1,28 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.home {
+    background-color: rgb(0, 0, 54);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section {
+    background-color: midnightblue;
+    border-radius: 5px;
+}
+
+.tweet {
+    margin: 20px;
+    padding: 2px 10px;
+} */
+
+.active {
+    background-color: rgb(194, 194, 255);
+}
