@@ -1,0 +1,24 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "description": "this is json-server"
+    },
+    {
+      "title": "Design",
+      "description": "Creative proffesion",
+      "id": 2
+    },
+    {
+      "title": "Design",
+      "description": "Creative profession",
+      "id": 3
+    },
+    {
+      "title": "New Title",
+      "description": "This is a new title",
+      "id": 4
+    }
+  ]
+}
