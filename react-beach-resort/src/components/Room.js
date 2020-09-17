@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 
 function Room({ room }) {
     const { name, slug, images, price } = room;
-    console.log(room)
 
     return (
         <article className='room'>
