@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+}
+
+.grid {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    background-color: rgb(214, 214, 214);
+    font-size: 200px;
+    text-align: center;
+    color: grey;
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    position: absolute;
+    background-color: rebeccapurple;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    position: absolute;
+    background-color: rgb(172, 172, 0);
+}
