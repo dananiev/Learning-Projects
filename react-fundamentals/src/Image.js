@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Image() {
+function Image({ img }) {
     return (
         <div>
             <img 
-                src='https://images-na.ssl-images-amazon.com/images/I/61vAUh-+G+L.jpg'
+                src={img}
                 alt='book'
                 width='200px'
                 height='300px'

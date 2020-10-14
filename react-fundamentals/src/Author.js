@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Author() {
+function Author({ author }) {
     return (
         <div>
             <h4
                 style={{ color: 'rgb(120, 120, 120)', fontSize: '12px', marginTop: '5px' }}    
             >
-                Blizzard
+                {author}
             </h4>
         </div>
     )
