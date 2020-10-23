@@ -1,0 +1,21 @@
+.App h1 {
+    text-align: center;
+}
+
+.App .movie-wrapper {
+    margin-left: 30px;
+}
+  .App .movie-wrapper .movies-wrapper {
+    display: flex;
+    align-items: center;
+}
+  .App .movie-wrapper .movies-wrapper button {
+    margin-left: 20px;
+}
+  .App .movie-wrapper .add {
+    display: flex;
+    align-items: flex-end;
+}
+  .App .movie-wrapper .add .input-section {
+    margin-right: 20px;
+}
