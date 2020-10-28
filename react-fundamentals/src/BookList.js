@@ -3,7 +3,9 @@ import Book from './Book';
 import books from './books';
 import ErrorExample from './ErrorExample';
 import UseStateBasics from './UseStateBasics';
-
+import UseStateCounter from './UseStateCounter';
+import UseEffectBasics from './UseEffectBasics';
+import UseEffectFetchData from './UseEffectFetchData';
 
 function BookList() {
     return (
@@ -20,6 +22,9 @@ function BookList() {
             </section>
             <ErrorExample />
             <UseStateBasics />
+            <UseStateCounter />
+            <UseEffectBasics />
+            <UseEffectFetchData />
         </div>
     )
 }
