@@ -14,7 +14,7 @@ const UseEffectFetchData = () => {
     useEffect(() => {   
         getUsers();
     }, [])
-///////////////////////////////////////////////////////////////////// 5:31:28
+
     return (
         <div>
             <h2>GitHub Users</h2>
@@ -23,7 +23,7 @@ const UseEffectFetchData = () => {
                     const { id, login, avatar_url, html_url } = user;
                     return (
                         <li key={id}>
-                            <img src={avatar_url} alt={login} />
+                            <img src={avatar_url} alt={login} style={{width: '20px', height: "20px"}}/>
                             <div>  
                                 <h4>{login}</h4>
                                 <a href={html_url}>profile</a>
