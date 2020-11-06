@@ -1,0 +1,162 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:hsl(210, 36%, 96%);
+    color: hsl(209, 61%, 16%);
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+    color: hsl(210, 22%, 49%);
+}
+
+.section {
+    width: 90vw;
+    margin: 5rem auto;
+    max-width: 1170px;
+}
+
+.loading {
+    text-align: center;
+}
+
+.underline {
+    width: 5rem;
+    height: 0.25rem;
+    margin-bottom: 1.25rem;
+    background: #2caeba;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.jobs-center {
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    margin-bottom: 4rem;
+    flex-wrap: wrap;   
+}
+
+.job-btn {
+    background: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    padding: 0.25rem 0;
+    line-height: 1;
+    outline-color: hsl(186, 100%, 94%);
+}
+
+.job-btn:hover {
+    color: #2caeba;
+    box-shadow: 0 2px #2caeba;
+}
+
+.active-btn {
+    color: #2caeba;
+    box-shadow: 0 2px #2caeba;
+}
+
+.job-info h3 {
+    font-weight: 400;
+}
+
+.job-info h4 {
+    text-transform: uppercase;
+    color:hsl(210, 22%, 49%);
+    background: hsl(212, 33%, 89%);
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.job-date {
+    letter-spacing: 0.1rem;
+}
+
+.jobs-desc {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.job-desc p {
+    margin-bottom: 0;
+    color: hsl(209, 34%, 30%); 
+}
+
+.job-icon {
+    color:#2caeba;
+}
+
+@media screen and (min-width: 992px) {
+    .jobs-center {
+        width: 90vw;
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        column-gap: 4rem;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .job-btn {
+        margin-bottom: 1rem;
+    }
+
+    .active-btn {
+        box-shadow: -2px 0 #2caeba;
+    }
+
+    .job-btn:hover {
+        box-shadow: -2px 0 #2caeba;
+    }
+}
